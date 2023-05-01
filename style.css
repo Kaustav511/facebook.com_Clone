@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+
+.navv{
+    @apply bg-purple-600 text-white font-serif justify-between;
+}
+.colo{
+    @apply hover:bg-green-600;
+    background-color: #42b72a;
+}
+.colo1{
+    @apply hover:bg-blue-600;
+    background-color: #1877F2;
+}
+@tailwind utilities;
